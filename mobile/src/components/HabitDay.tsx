@@ -43,15 +43,15 @@ export function HabitDay({
           amountAccomplishedPercentege > 0 && amountAccomplishedPercentege < 20,
 
         ["bg-violet-800 border-violet-600"]:
-          amountAccomplishedPercentege > 20 &&
+          amountAccomplishedPercentege >= 20 &&
           amountAccomplishedPercentege < 40,
 
         ["bg-violet-700 border-violet-500"]:
-          amountAccomplishedPercentege > 40 &&
+          amountAccomplishedPercentege >= 40 &&
           amountAccomplishedPercentege < 60,
 
         ["bg-violet-600 border-violet-500"]:
-          amountAccomplishedPercentege > 60 &&
+          amountAccomplishedPercentege >= 60 &&
           amountAccomplishedPercentege < 80,
 
         ["bg-violet-500 border-violet-400"]: amountAccomplishedPercentege > 80,
